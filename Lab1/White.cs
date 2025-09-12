@@ -6,9 +6,11 @@ namespace Lab1
         {
             bool answer = false;
 
-            // code here
-            answer=word
-
+            if (d > 0)
+            {
+                answer = true;
+            }
+            
             // end
 
             return answer;
@@ -17,7 +19,10 @@ namespace Lab1
         {
             bool answer = false;
 
-            // code here
+            if (n % 2 == 0)
+            {
+                answer = true;
+            }
 
             // end
 
@@ -27,7 +32,14 @@ namespace Lab1
         {
             int answer = 0;
 
-            // code here
+            if (a > b)
+            {
+                answer = a;
+            }
+            else
+            {
+                answer = b;
+            }
 
             // end
 
@@ -37,7 +49,14 @@ namespace Lab1
         {
             double answer = 0;
 
-            // code here
+            if (Math.Abs(d)>Math.Abs(f))
+            {
+                answer = f;
+            }
+            else
+            {
+                answer = d;
+            }
 
             // end
 
@@ -46,8 +65,14 @@ namespace Lab1
         public double Task5(double x)
         {
             double answer = 0;
-
-            // code here
+            if (Math.Abs(x) > 1)
+            {
+                answer = 1;
+            }
+            else
+            {
+                answer = x;
+            }
 
             // end
 
@@ -57,7 +82,10 @@ namespace Lab1
         {
             bool answer = false;
 
-            // code here
+            if (Math.Abs(x * x + y * y - r * r) <= Math.Pow(10, -6))
+            {
+                answer = true;
+            }
 
             // end
 
@@ -68,7 +96,14 @@ namespace Lab1
         {
             bool answer = false;
 
-            // code here
+            int s = n * n;
+            if (s - n > 2 * n)
+            {
+                if (n % 2 == 0)
+                {
+                    answer = true;
+                }
+            }
 
             // end
 
@@ -78,7 +113,10 @@ namespace Lab1
         {
             bool answer = false;
 
-            // code here
+            if (L / 10 <= 3 && M + T >= 5 && M % 2 == 0)
+            {
+                answer = true;
+            }
 
             // end
 
