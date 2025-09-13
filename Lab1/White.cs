@@ -82,7 +82,7 @@ namespace Lab1
         {
             bool answer = false;
 
-            if (Math.Abs(x * x + y * y - r * r) <= Math.Pow(10, -6))
+            if (Math.Abs(x * x + y * y - r * r) <= Math.Pow(10, -4))
             {
                 answer = true;
             }
@@ -124,3 +124,4 @@ namespace Lab1
         }
     }
 }
+
